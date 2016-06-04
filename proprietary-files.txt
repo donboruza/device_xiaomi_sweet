@@ -903,7 +903,6 @@ vendor/lib64/libgcs-calwrapper.so
 vendor/lib64/libgcs-ipc.so
 vendor/lib64/libgcs-osal.so
 vendor/lib64/libgcs.so
-vendor/lib64/libgdtap.so
 vendor/lib64/libgnsspps.so
 vendor/lib64/libGPQTEEC_vendor.so
 vendor/lib64/libGPreqcancel.so
