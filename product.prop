@@ -7,3 +7,4 @@ ro.control_privapp_permissions=log
 
 # Graphics
 debug.sdm.support_writeback=0
+debug.cpurend.vsync=false
