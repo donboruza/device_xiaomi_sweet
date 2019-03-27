@@ -297,6 +297,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     CarrierConfigResSweet \
     FrameworksResSweet \
+    NotchBarKillerSweet \
     SettingsResSweet \
     SystemUIResSweet \
     TelephonyResSweet \
