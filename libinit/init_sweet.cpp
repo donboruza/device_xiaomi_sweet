@@ -128,6 +128,9 @@ void vendor_load_properties() {
     property_override("ro.product.marketname", marketname.c_str());
     property_override("ro.product.mod_device", mod_device.c_str());
 
+    // Set hardware revision
+    property_override("ro.boot.hardware.revision", GetProperty("ro.boot.hwversion", "").c_str());
+
     /* Workaround CTS */
     workaround_cts_properties();
 
