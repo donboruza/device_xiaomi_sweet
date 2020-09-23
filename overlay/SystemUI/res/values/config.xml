@@ -90,4 +90,8 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <string name="quick_settings_tiles_default" translatable="false">
         wifi,cell,location,bt,flashlight,airplane,nfc,hotspot,battery,screenrecord,mictoggle,cameratoggle
     </string>
+
+    <!-- Should we vibrate on an icon animation of the shelf. This should only be active if the
+     vibrator is capable of subtle vibrations -->
+    <bool name="config_vibrateOnIconAnimation">true</bool>
 </resources>
