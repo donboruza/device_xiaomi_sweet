@@ -13,3 +13,6 @@ debug.cpurend.vsync=false
 debug.hwui.renderer=skiagl 
 debug.renderengine.backend=skiaglthreaded 
 renderthread.skia.reduceopstasksplitting=true
+
+# Zygote
+zygote.critical_window.minute=10
