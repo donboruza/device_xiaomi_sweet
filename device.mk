@@ -471,3 +471,8 @@ $(call inherit-product, vendor/xiaomi/sweet/sweet-vendor.mk)
 # Lily Experience
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/lily_experience.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/lily_experience.xml
+
+# Disable touch video heatmap to reduce latency, motion jitter, and CPU usage
+# on supported devices with Deep Press input classifier HALs and models
+PRODUCT_PRODUCT_PROPERTIES += \
+	ro.input.video_enabled=false
