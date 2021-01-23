@@ -235,6 +235,13 @@ PRODUCT_PACKAGES += \
     libshim_megvii \
     libpiex_shim
 
+PRODUCT_PACKAGES += \
+    libmm-qcamera \
+    libgui_vendor \
+    libxml2 \
+    CameraGo \
+    vendor.qti.hardware.camera.device@1.0.vendor
+
 # Remove unwanted packages
 PRODUCT_PACKAGES += \
     RemovePackages
