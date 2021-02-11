@@ -15,6 +15,9 @@ ro.sf.lcd_density=440
 # WiFi Display
 persist.debug.wfd.enable=1
 
+# Fuse passthrough
+persist.sys.fuse.passthrough.enable=true
+
 # Camera
 persist.vendor.camera.facepp.fdenable=0
 
