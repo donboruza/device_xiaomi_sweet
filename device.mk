@@ -218,6 +218,10 @@ PRODUCT_PACKAGES += \
     libshim_megvii \
     libpiex_shim
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.4-service \
