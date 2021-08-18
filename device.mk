@@ -95,7 +95,8 @@ PRODUCT_PACKAGES += \
 
 # Device Settings
 PRODUCT_PACKAGES += \
-    DeviceSettings
+    DeviceSettings \
+    init.devicesettings.rc
 
 # Display/Graphics
 PRODUCT_PACKAGES += \
