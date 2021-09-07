@@ -27,6 +27,7 @@ TARGET_NO_BOOTLOADER := true
 
 # Bluetooth
 TARGET_USE_QTI_BT_STACK := false
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
 # Kernel
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom \
