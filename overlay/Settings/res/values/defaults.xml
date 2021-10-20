@@ -38,4 +38,7 @@
 
     <!-- Comma-separated list of bluetooth, wifi, and cell. -->
     <string name="def_airplane_mode_radios" translatable="false">cell</string>
+
+    <!-- Speed up the animations -->
+    <fraction name="def_window_transition_scale">50%</fraction>
 </resources>
