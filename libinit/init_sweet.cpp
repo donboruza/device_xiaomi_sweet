@@ -86,6 +86,9 @@ void vendor_load_properties() {
     property_override("ro.product.marketname", marketname.c_str());
     property_override("ro.product.mod_device", mod_device.c_str());
 
+    // Enable UI blur
+    property_override("ro.surface_flinger.supports_background_blur", "1");
+
     // Set dalvik heap configuration
     std::string heapstartsize, heapgrowthlimit, heapsize, heapminfree,
 			heapmaxfree, heaptargetutilization;
