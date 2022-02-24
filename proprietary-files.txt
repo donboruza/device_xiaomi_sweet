@@ -86,6 +86,9 @@ vendor/lib/soundfx/libshoebox.so
 vendor/lib/soundfx/libswgamedap.so
 vendor/lib/soundfx/libswvqe.so
 vendor/lib/libdapparamstorage.so
+vendor/lib/soundfx/libqcbassboost.so
+vendor/lib/soundfx/libqcreverb.so
+vendor/lib/soundfx/libqcvirt.so
 
 # Audio (Hardware)
 vendor/lib/hw/audio.primary.sm6150.so
