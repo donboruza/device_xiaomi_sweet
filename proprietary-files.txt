@@ -210,7 +210,6 @@ vendor/bin/sensors.qti
 vendor/bin/setup_headsetmic2headphone.sh
 vendor/bin/setup_mainmic2headphone.sh
 vendor/bin/setup_topmic2headphone.sh
-vendor/bin/slim_daemon
 vendor/bin/SoterProvisioningTool
 vendor/bin/ssgqmigd
 vendor/bin/ssgtzd
