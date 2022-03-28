@@ -2,3 +2,6 @@ binder_call(system_app, storaged)
 
 # Allow System Apps to get settingsdebug.instant.packages prop
 get_prop(system_app, settingslib_prop)
+
+# Allow System Apps to write to sysfs_vibrator
+allow system_app sysfs_vibrator:file { read write open getattr };
