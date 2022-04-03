@@ -1,3 +1,13 @@
+#
+# Copyright (C) 2021 The LineageOS Project
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+
+# Call the MiuiCamera setup
+$(call inherit-product-if-exists, vendor/xiaomi/sweet-miuicamera/products/miuicamera.mk)
+
 # Shipping level
 PRODUCT_SHIPPING_API_LEVEL := 30
 
