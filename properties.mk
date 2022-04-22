@@ -321,6 +321,10 @@ persist.vendor.data.iwlan.enable=true
 PRODUCT_SYSTEM_PROERTIES += \
 ro.vendor.perf.scroll_opt=true
 
+# Phantom process monitoring
+PRODUCT_PRODUCT_PROPERTIES += \
+sys.fflag.override.settings_enable_monitor_phantom_procs=false
+
 # Perf
 PRODUCT_VENDOR_PROPERTIES += \
 ro.vendor.extension_library=libqti-perfd-client.so
