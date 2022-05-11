@@ -478,3 +478,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 	ro.input.video_enabled=false
 
 PRODUCT_ALWAYS_PREOPT_EXTRACTED_APK := true
+
+# SystemUI
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    dalvik.vm.systemuicompilerfilter=speed
