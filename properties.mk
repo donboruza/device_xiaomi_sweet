@@ -296,6 +296,10 @@ ro.netflix.bsp_rev=Q6150-17263-1
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.vendor.data.iwlan.enable=true
 
+# Pre-Rendering
+PRODUCT_SYSTEM_PROERTIES += \
+ro.vendor.perf.scroll_opt=true
+
 # Perf
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.vendor.extension_library=libqti-perfd-client.so
