@@ -21,6 +21,9 @@ persist.vendor.camera.facepp.fdenable=0
 # One handed mode
 ro.support_one_handed_mode=true
 
+# IORap
+ro.iorapd.enable=false
+
 # ZRAM writeback
 ro.zram.mark_idle_delay_mins=60
 ro.zram.first_wb_delay_mins=1440
