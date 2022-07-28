@@ -238,6 +238,10 @@ vendor.gralloc.disable_ubwc=0
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.incremental.enable=1
 
+# IORap
+PRODUCT_SYSTEM_PROPERTIES += \
+ro.iorapd.enable=false
+
 # Keystore
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.hardware.keystore_desede=true
