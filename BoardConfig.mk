@@ -50,6 +50,7 @@ TARGET_KERNEL_CONFIG := vendor/sweet_user_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sweet
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_OPTIONAL_LD := true
+TARGET_KERNEL_LLVM_BINUTILS := false
 
 # Partitions
 BOARD_SUPER_PARTITION_SIZE := 9126805504
@@ -164,3 +165,4 @@ BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := default
 TARGET_DISABLED_UBWC := true
 
 include vendor/xiaomi/sweet/BoardConfigVendor.mk
+
