@@ -11,8 +11,20 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from sweet device
 $(call inherit-product, device/xiaomi/sweet/device.mk)
 
-# Inherit some common LineageOS stuff
+# Inherit common rice configurations
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+
+# Other Stuff rice
+RICE_MAINTAINER := ryuKizuha
+RICE_CHIPSET := sm6150
+WITH_GMS := false
+SUSHI_BOOTANIMATION := 1080
+TARGET_INCLUDE_PIXEL_CHARGER := true
+TARGET_BUILD_GRAPHENEOS_CAMERA := true
+TARGET_ENABLE_BLUR := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 
 PRODUCT_NAME := lineage_sweet
 PRODUCT_DEVICE := sweet
