@@ -129,6 +129,7 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    BluetoothResSweet \
     CarrierConfigOverlaySweet \
     DialerOverlaySweet \
     DocumentsUIOverlaySweet \
