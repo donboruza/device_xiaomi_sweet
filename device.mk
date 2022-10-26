@@ -52,6 +52,15 @@ PRODUCT_PACKAGES += \
     fastbootd \
     android.hardware.fastboot@1.0-impl-mock
 
+# Dex
+PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
+DONT_DEXPREOPT_PREBUILTS := true
+
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    SystemUI \
+    NexusLauncherRelease \
+    CustomPixelLauncherOverlay
+
 # Init
 PRODUCT_PACKAGES += \
     init.qcom.rc \
