@@ -362,6 +362,7 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    BluetoothResSweet \
     CarrierConfigResSweet \
     FrameworksResSweet \
     NotchBarKillerSweet \
