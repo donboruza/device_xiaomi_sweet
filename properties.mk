@@ -163,7 +163,23 @@ drm.service.enabled=true
 
 # Dalvik
 PRODUCT_SYSTEM_PROPERTIES += \
-dalvik.vm.dex2oat64.enabled=true
+dalvik.vm.dex2oat64.enabled=true \
+dalvik.vm.systemuicompilerfilter=speed \
+persist.bg.dexopt.enable=true \
+dalvik.vm.dexopt.secondary=true \
+pm.dexopt.install=speed-profile \
+pm.dexopt.bg-dexopt=speed-profile \
+pm.dexopt.boot=verify \
+pm.dexopt.first-boot=quicken \
+dalvik.vm.dex2oat-cpu-set=0,1,2,3,4,5 \
+dalvik.vm.boot-dex2oat-cpu-set=0,1,2,3,4,5 \
+dalvik.vm.image-dex2oat-cpu-set=0,1,2,3,4,5 \
+dalvik.vm.dex2oat-threads=8 \
+dalvik.vm.boot-dex2oat-threads=8 \
+dalvik.vm.image-dex2oat-threads=8 \
+ro.sys.fw.dex2oat_thread_count=8 \
+dalvik.vm.image-dex2oat-filter=speed-profile \
+dalvik.vm.dex2oat-filter=speed-profile \
 
 # Disable MTE Async for system server
 PRODUCT_SYSTEM_PROPERTIES += \

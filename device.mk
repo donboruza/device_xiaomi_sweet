@@ -149,6 +149,15 @@ PRODUCT_PACKAGES += \
     libvndfwk_detect_jni.qti \
     libvndfwk_detect_jni.qti.vendor
 
+# Dex
+PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
+DONT_DEXPREOPT_PREBUILTS := true
+
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    SystemUI \
+    NexusLauncherRelease \
+    CustomPixelLauncherOverlay
+
 # GPS
 PRODUCT_PACKAGES += \
     libsensorndkbridge
