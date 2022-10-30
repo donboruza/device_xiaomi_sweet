@@ -106,4 +106,4 @@ setup_vendor "${DEVICE}" "${VENDOR}" "${ARROW_ROOT}" true "${CLEAN_VENDOR}"
 extract "${MY_DIR}/proprietary-files.txt" "${SRC}" \
         "${KANG}" --section "${SECTION}"
 
-"${MY_DIR}/setup-makefiles.sh" "${SRC}"
+"${MY_DIR}/setup-makefiles.sh"
