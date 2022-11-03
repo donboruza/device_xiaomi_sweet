@@ -77,6 +77,8 @@ TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/$(TARGET
 TARGET_KERNEL_CONFIG := vendor/sweet_user_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sweet
 KERNEL_LD := LD=ld.lld
+KERNEL_SUPPORTS_LLVM_TOOLS := true
+TARGET_KERNEL_OPTIONAL_LD := true
 
 # Manifest
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
