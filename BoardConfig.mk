@@ -73,6 +73,8 @@ BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_SEPARATED_DTBO := true
 
 TARGET_KERNEL_CLANG_COMPILE := true
+TARGET_KERNEL_CLANG_VERSION := clang-sdclang
+TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/$(TARGET_KERNEL_CLANG_VERSION)
 TARGET_KERNEL_CONFIG := vendor/sweet_user_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sweet
 KERNEL_LD := LD=ld.lld
