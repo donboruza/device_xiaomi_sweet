@@ -1,10 +1,3 @@
-#
-# Copyright (C) 2021 The LineageOS Project
-#
-# SPDX-License-Identifier: Apache-2.0
-#
-
-
 DEVICE_PATH := device/xiaomi/sweet
 BOARD_VENDOR := xiaomi
 
@@ -179,6 +172,3 @@ BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := default
 
 # Media
 TARGET_DISABLED_UBWC := true
-
-# Inherit from proprietary files for miuicamera
-include vendor/xiaomi/sweet-miuicamera/products/board.mk
