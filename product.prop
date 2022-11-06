@@ -8,6 +8,7 @@ ro.control_privapp_permissions=log
 # Graphics
 debug.sdm.support_writeback=0
 debug.cpurend.vsync=false
+debug.sf.auto_latch_unsignaled=1
 
 # Render Engine
 debug.hwui.renderer=skiagl 
