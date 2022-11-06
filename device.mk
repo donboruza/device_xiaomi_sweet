@@ -172,6 +172,7 @@ USE_DEX2OAT_DEBUG := false
 
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI \
+    Settings \
     NexusLauncherRelease \
     CustomPixelLauncherOverlay
 
