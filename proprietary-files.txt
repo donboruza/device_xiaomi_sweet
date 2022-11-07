@@ -1367,3 +1367,7 @@ vendor/bin/cnss-daemon
 
 # Xiaomi MAC
 vendor/bin/nv_mac
+
+# GPS - from missi_phone_global-user-13-TKQ1.220630.001-V13.0.4.0.TLCMIXM-release-keys
+vendor/lib/libloc_api_wds.so
+vendor/lib64/libloc_api_wds.so
