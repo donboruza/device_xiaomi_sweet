@@ -10,6 +10,9 @@ debug.sdm.support_writeback=0
 debug.cpurend.vsync=false
 debug.sf.auto_latch_unsignaled=1
 
+# Always use GPU for screen compositing
+debug.sf.disable_hwc_overlays=1
+
 # Render Engine
 debug.hwui.renderer=skiagl 
 debug.renderengine.backend=skiaglthreaded 
