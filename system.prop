@@ -14,6 +14,7 @@ ro.launcher.blur.appLaunch=0
 debug.sf.enable_hwc_vds=1
 debug.sf.latch_unsignaled=1
 ro.sf.lcd_density=440
+debug.sf.disable_hwc_overlays=1
 
 # WiFi Display
 persist.debug.wfd.enable=1
