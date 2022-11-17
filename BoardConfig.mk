@@ -79,7 +79,7 @@ $(foreach p, $(BOARD_PARTITION_LIST), $(eval BOARD_$(p)IMAGE_PARTITION_RESERVED_
 TARGET_USERIMAGES_USE_F2FS := true
 TARGET_USERIMAGES_USE_EXT4 := true
 
-VENDOR_SECURITY_PATCH := 2021-09-01
+VENDOR_SECURITY_PATCH := 2022-09-01
 
 # Platform
 TARGET_BOARD_PLATFORM := $(TARGET_BOOTLOADER_BOARD_NAME)
@@ -173,3 +173,7 @@ LOC_HIDL_VERSION := 4.0
 
 # Media
 TARGET_DISABLED_UBWC := true
+
+
+# Inherit from proprietary files
+include vendor/xiaomi/sweet/BoardConfigVendor.mk
