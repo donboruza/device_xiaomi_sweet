@@ -5,10 +5,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit device configurations
 $(call inherit-product, device/xiaomi/sweet/device.mk)
 
-# Inherit common cherish configurations
-$(call inherit-product, vendor/cherish/common_full_phone.mk)
+# Inherit some common sweet stuff
+$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
-# Other Stuff rice
+# Other Stuff cherish
 CHERISH_BUILD_TYPE := UNOFFICIAL
 WITH_GMS := false
 TARGET_BOOT_ANIMATION_RES := 1080
