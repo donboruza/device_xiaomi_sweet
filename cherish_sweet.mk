@@ -10,7 +10,7 @@ $(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
 # Other Stuff cherish
 CHERISH_BUILD_TYPE := UNOFFICIAL
-WITH_GMS := false
+CHERISH_VANILLA := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_PIXEL_CHARGER := true
 TARGET_ENABLE_BLUR := true
