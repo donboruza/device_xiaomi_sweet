@@ -152,6 +152,21 @@ camera.disable_zsl_mode=1
 PRODUCT_PRODUCT_PROPERTIES += \
 ro.charger.enable_suspend=true
 
+# Disabled app compaction due to app freezes when switching tasks
+PRODUCT_VENDOR_PROPERTIES += \
+persist.sys.appcompact.enable_app_compact=false \
+persist.sys.appcompact.full_compact_type=2 \
+persist.sys.appcompact.some_compact_type=4 \
+persist.sys.appcompact.compact_throttle_somesome=5000 \
+persist.sys.appcompact.compact_throttle_somefull=10000 \
+persist.sys.appcompact.compact_throttle_fullsome=500 \
+persist.sys.appcompact.compact_throttle_fullfull=10000 \
+persist.sys.appcompact.compact_throttle_bfgs=600000 \
+persist.sys.appcompact.compact_throttle_persistent=600000 \
+persist.sys.appcompact.rss_throttle_kb=12000 \
+persist.sys.appcompact.delta_rss_throttle_kb=8000 \
+persist.sys.perf.topAppRenderThreadBoost.enable=false
+
 # Set fcc_main to 400mA to avoid the risk of vph_pwr drop
 PRODUCT_SYSTEM_PROPERTIES += \
 persist.vendor.cp.fcc_main_ua=400000
