@@ -15,7 +15,7 @@ $(call inherit-product, device/xiaomi/sweet/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Other Stuff rice
-RICE_MAINTAINER := ryuKizuha
+RICE_MAINTAINER := don.boruza
 RICE_CHIPSET := sm6150
 WITH_GMS := false
 SUSHI_BOOTANIMATION := 1080
