@@ -79,8 +79,6 @@ genfscon sysfs /devices/platform/soc/soc:qcom,smp2p-modem/wakeup u:object_r:sysf
 genfscon sysfs /devices/platform/soc/soc:qcom,smp2p_sleepstate/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/virtual/diag/diag/wakeup u:object_r:sysfs_wakeup:s0
 
-genfscon proc /sys/kernel/sched_energy_aware      u:object_r:proc_sched_energy_aware:s0
-
 # FPS Info
 genfscon sysfs /sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/sde-crtc-0/measured_fps  u:object_r:vendor_sysfs_graphics:s0
 
